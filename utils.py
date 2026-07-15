@@ -1,15 +1,3 @@
-"""
-utils.py — AI Job Recommender v3
-═══════════════════════════════════════════════════════════════
-Improvements over v2:
-  • Better text cleaning (URL, HTML, special char removal)
-  • Lemmatization via simple suffix rules (no heavy NLTK download needed)
-  • Broader soft-skill + framework extraction
-  • More alias mappings (150+)
-  • Smarter experience detection with year-range parsing
-  • Stopword filtering for cleaner TF-IDF input
-═══════════════════════════════════════════════════════════════
-"""
 
 import re
 import ast
